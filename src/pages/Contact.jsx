@@ -5,8 +5,7 @@ import { Canvas } from '@react-three/fiber'
 import Fox from '../models/Fox'
 import Loader from '../components/Loader'
 import Alert from '../components/Alert'
-import { socialLinks } from '../constants'
-import { Link } from 'react-router-dom'
+
 
 const Contact = () => {
 const formRef= useRef(null)
@@ -73,6 +72,7 @@ const handleSubmit= (e) =>{
   return (
     <section className='relative flex lg:flex-row flex-col max-container h-full'>
       {alert.show && <Alert {...alert} />}
+
       <div className='flex-1 min-w-[50%] flex flex-col'>
         <h1 className='head-text'>Get in Touch</h1>
         <form className='w-full flex-flex-col gap-7 mt-14 space-y-3'
@@ -130,6 +130,7 @@ const handleSubmit= (e) =>{
 
         </form>
       </div>
+
       <div className='lg:w-1/2  w-full lg:h-auto md:h-[550px] h-[350px]'>
         <Canvas 
         camera={{
@@ -150,22 +151,9 @@ const handleSubmit= (e) =>{
           </Suspense>
         </Canvas>
       </div>
-      <div className='flex flex-row gap-6 justify-center items-center'>
 
-      {socialLinks.map((link) => (
-  <Link
-    to={link.link}
-    key={link.name}
-    className="w-10 h-10 rounded-full overflow-hidden flex items-center justify-center"
-  >
-    <img
-      src={link.iconUrl}
-      alt={link.name}
-      className="w-full h-full object-cover"
-    />
-  </Link>
-))}
-      </div>
+     
+
     </section>
     )
 }
