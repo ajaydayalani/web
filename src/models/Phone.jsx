@@ -20,16 +20,16 @@ const Phone = (props) => {
   const phoneRef = useRef();
 
   const handleNavAbout= (e)=>{
-    navigate("/web/about")
+    navigate("/about")
   }
 
   const handleNavContact= (e)=>{
-    navigate("/web/contact")
+    navigate("/contact")
   }
   
 
   const handleNavProjects= (e)=>{
-    navigate("/web/projects")
+    navigate("/projects")
   }
 
   const { nodes, materials } = useGLTF(phoneScene)
