@@ -7,7 +7,7 @@ import { arrow } from "../assets/icons";
 
 const Projects = () => {
   return (
-    <section className='max-container h-full'>
+    <section className='max-container h-full mb-2'>
       <h1 className='head-text'>
         My <span className='blue-gradient_text font-semibold drop-shadow'>Projects</span>
       </h1>
