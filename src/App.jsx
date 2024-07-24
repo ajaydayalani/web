@@ -6,10 +6,9 @@ import {Home, Projects,Contact,About} from './pages'
 const App = () => {
   return (
     <main className='bg-slate-300/20 h-full w-full'>
-      <Router>
+      <Router basename={import.meta.env.BASE_URL}>
         <Navbar/>
         <Routes>
-          <Route path="/web/" element={<Home/>}/>
           <Route path="/" element={<Home/>}/>
           <Route path="/about" element={<About/>}/>
           <Route path="/projects" element={<Projects/>}/>
