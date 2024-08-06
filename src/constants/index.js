@@ -96,7 +96,7 @@ export const experiences = [
         ],
     },
     {
-        title: "Project Coordinator",
+        title: "Software Engineer (Placement)",
         company_name: "Vodafone Group Uk",
         icon: vodafone,
         iconBg: "#5bc3bc",
@@ -108,7 +108,7 @@ export const experiences = [
         ],
     },
     {
-        title: "Founder & Coordinator",
+        title: "Founder",
         company_name: "Java Outreach PRogram",
         icon: sdhs,
         iconBg: "#b7e4c7",
