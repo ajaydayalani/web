@@ -97,7 +97,7 @@ export const experiences = [
     },
     {
         title: "Software Engineer (Placement)",
-        company_name: "Vodafone Group Uk",
+        company_name: "Vodafone Group UK",
         icon: vodafone,
         iconBg: "#5bc3bc",
         date: "Jul 2020 - Aug2021",
@@ -109,7 +109,7 @@ export const experiences = [
     },
     {
         title: "Founder",
-        company_name: "Java Outreach PRogram",
+        company_name: "Java Outreach Program",
         icon: sdhs,
         iconBg: "#b7e4c7",
         date: "Sep 2019 - Dec 2019",
