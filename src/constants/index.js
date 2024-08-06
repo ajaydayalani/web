@@ -151,7 +151,7 @@ export const projects = [
     {
         iconUrl: java,
         theme: 'btn-back-blue',
-        name: 'Ethirium Options Simulator',
+        name: 'Etherium Options Simulator',
         description: 'Created a full-stack simulator of smart contracts as option trades on the block-chain',
         link: "https://github.com/ajaydayalani/Thesis",
     },
